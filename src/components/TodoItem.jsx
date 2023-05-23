@@ -26,8 +26,6 @@ const TodoItem = (props) => {
   return (
     <>
       <motion.li
-        initial={{ x: '150vw', transition: { type: 'spring', duration: 2 } }}
-        animate={{ x: 0, transition: { type: 'spring', duration: 2 } }}
         whileHover={{ scale: 1.1, transition: { type: 'spring', duration: 0.1 } }}
         key={item.id}
         className="card"
